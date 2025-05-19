@@ -3,7 +3,7 @@ from flask import Flask
 
 def create_app():
     app = Flask(__name__)
-    int x =10
+    int x=10
     int y= 10
     @app.route('/')
     def home():
